@@ -3,11 +3,11 @@
 To use this App [Click Here](https://agile-retreat-26461.herokuapp.com/notes)
 Use this app to interactively take notes and plan your activities
 
-## Your Task
+## Overview
 
 This application (Note Taker) can be used to write and save notes. This application will uses an Express.js back end and saves and retrieve note data from a JSON file.
 
-## User Story
+## User Story (Rison D'etre).
 
 ```
 AS A Business owner
