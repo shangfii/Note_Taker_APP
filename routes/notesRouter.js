@@ -1,8 +1,9 @@
-//Installing Express module then a Router from Express
+//Installing Express module and a Router from Express
 const express = require("express");
 const router = express.Router();
 
-//Destructuring module fsUtils. Using only necessary functions 
+//Destructuring module fsUtils. Using functions 
+
 const { readFromFile, readAndAppend, deleteID } = require('../helpers/fsUtils');
 // Helper method for generating unique ids
 const uuid = require('../helpers/uuid');
@@ -28,31 +29,29 @@ router.post('/', (req, res) => {
       };
   
       readAndAppend(newNote, './db/db.json');
-      res.json(`Note added successfully 🚀`);
+      res.json(`Note Taken successfully :)`);
     } else {
       res.error('Error in adding note');
     }
 });
 
 // Delete Route for deleting a specific note
+
 router.delete('/:id', (req, res) => {
     console.info(`${req.method} request received for notes`);
 
-    // const id2 = req.params.id; 
-    // console.log(id2);
-    
     const id = req.url;
-    // removing "/" from ID sent in 'req'
+    
     const requestID = id.slice(1);
         
-    // console.log(id);
+    // console.log(id) to verify
     console.log(requestID);
 
     if(req.body) { 
         deleteID(requestID,'./db/db.json');
-        res.json(`Note successfully deleted`);
+        res.json(`Note has been deleted`);
     } else {
-      res.error('Error in deleting note');
+      res.error('Error Could note deleting note');
     }
 });
 
