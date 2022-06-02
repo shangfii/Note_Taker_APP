@@ -41,6 +41,7 @@ Watch the following video the app at work.
 ## Technologies used
 To create this app successfully one will need to have an understading of the following technologies used.
 
+00. You will need a computer (lol)
 
 1. [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
 
@@ -56,7 +57,6 @@ Cascading Style Sheets (CSS) is a stylesheet language used to describe the prese
 JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. [Read more about JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
 4. VS CODE (You can use another editor)
-
 
 Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications
 [learn more](https://code.visualstudio.com/)
@@ -75,10 +75,7 @@ Visual Studio Code is a code editor redefined and optimized for building and deb
 
 13. [Express.js](https://expressjs.com/), or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server
 
-14. [##Heroku](https://www.heroku.com/). This app was been deployed on Heroku. Heroku is a cloud platform as a service supporting several programming languages. One of the first cloud platforms, Heroku has been in development since June 2007, when it supported only the Ruby programming language, but now supports Java, Node.js, Scala, Clojure, Python, PHP, and Go.
-
-
-
+14. [Heroku](https://www.heroku.com/). This app was been deployed on Heroku. Heroku is a cloud platform as a service supporting several programming languages. One of the first cloud platforms, Heroku has been in development since June 2007, when it supported only the Ruby programming language, but now supports Java, Node.js, Scala, Clojure, Python, PHP, and Go.
 
 
 ## How to Modify this application
