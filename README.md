@@ -36,4 +36,4 @@ Watch the following video the app at work.
 
 ![Note Taker Live](https://github.com/shangfii/Note_Taker_APP/blob/main/images/NoteTakerDemo.gif)
 
-
+![alt text](https://github.com/shangfii/Note_Taker_APP/blob/main/images/NoteTakerDemo.gif)
