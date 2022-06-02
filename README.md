@@ -35,5 +35,3 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 Watch the following video the app at work.
 
 ![Note Taker Live](https://github.com/shangfii/Note_Taker_APP/blob/main/images/NoteTakerDemo.gif)
-
-![alt text](https://github.com/shangfii/Note_Taker_APP/blob/main/images/NoteTakerDemo.gif)
